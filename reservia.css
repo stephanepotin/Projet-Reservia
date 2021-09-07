@@ -340,3 +340,99 @@ html, body
     height: 160px;
     border-radius: 15px 0 0 15px;
 }
+/*activites*/
+.activites
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blocactivites
+{
+    width: 100%;
+    height: 600px;
+}
+.blocactivites2356
+{
+    width: 23%;
+    height: 100%;
+}
+/*reglage bloc*/
+.cubeactivites
+{
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.cubeactivites2356
+{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+/*fin reglage*/
+.hauteurtitre
+{
+    height: 70px;
+}
+.titreactivites
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+.imgactivites1
+{
+    background-image: url("/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0px;
+}
+.imgactivites2
+{
+    background-image: url("/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0px;
+}
+.imgactivites3
+{
+    background-image: url("/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0px;
+}
+.imgactivites4
+{
+    background-image: url("/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0px;
+}
+.imgactivites5
+{
+    background-image: url("/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0px;
+}
+.imgactivites6
+{
+    background-image: url("/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0px;
+}
