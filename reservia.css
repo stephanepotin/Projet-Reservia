@@ -291,3 +291,52 @@ html, body
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
+/*populaire*/
+.blocpopulaire
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blocpopulaire12
+{
+    margin-bottom: 22px;
+}
+.cubepopulaire
+{
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+.cubedetailpop
+{
+    width: 60%;
+    padding-left: 5%;
+}
+.imgpop1
+{
+    background-image: url("/images/hebergements/4_small/hotel_le_soleil_malin.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgpop2
+{
+    background-image: url("/images/hebergements/4_small/au_coeur_de_l_eau.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgpop3
+{
+    background-image: url("/images/hebergements/4_small/hotel_tout_bleu_et_blanc.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
