@@ -21,6 +21,26 @@
     justify-content: space-between;
     align-items: center;
 }
+.flexcolonecentre
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexcolonearound
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flexcolonebetween
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
 .bordurenone
 {
     border: none;
@@ -115,5 +135,147 @@
     color: white;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
-
+}
+/*filtres*/
+.filtre
+{
+    display: flex;
+    align-items: center;
+}
+.margfiltre
+{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.margfiltretitre
+{
+    margin-right: 20px;
+}
+.filtretexticons
+{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filtretexticons:hover > .filtretext
+{
+    color: #0065fc;
+}
+.filtretexticons:hover > .filtreicons
+{
+    color: white;
+    background-color: #0065fc;
+} 
+.filtretext
+{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+.filtreicons
+{
+    border: -2px;
+    border-radius: 25px;  
+    width: 52px;
+    height: 52px; 
+    color: #0065fc;
+    background-color: #DEEBFF;
+}
+/*info icone*/
+.info
+{
+    display: flex;
+    align-items: center;
+}
+.parenticon
+{
+    width: 20px;
+    height: 20px;
+    border:2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+/*hebergement*/
+.sizehebergement
+{
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.sizepopulaire
+{
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.blochebergement
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cubehebergement
+{
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20%;
+}
+.imghebergement1
+{
+    background-image: url("./images/hebergements/4_small/auberge_la_cannebiere.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imghebergement2
+{
+    background-image: url("./images/hebergements/4_small/hotel_du_port.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imghebergement3
+{
+    background-image: url("./images/hebergements/4_small/hotel_les_mouettes.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imghebergement4
+{
+    background-image: url("./images/hebergements/4_small/hotel_de_la_mer.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imghebergement5
+{
+    background-image: url("./images/hebergements/4_small/auberge_le_panier.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imghebergement6
+{
+    background-image: url("./images/hebergements/4_small/hotel_chez_amina.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
 }
