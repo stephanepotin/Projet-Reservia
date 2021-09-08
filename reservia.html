@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https : //fonts.googleapis.com/css2? family= Raleway & display=swap" rel="stylesheet">
@@ -11,7 +13,7 @@
     </head>
     <body>
         <nav class="sizenav">
-            <div class="flexbetween">
+            <div class="sizeliens flexbetween">
                 <div>
                     <img 
                         class="margelogo"
@@ -21,16 +23,17 @@
                         height="50px"
                     />
                 </div>
-                <div class="sizeliens flexaround">
+                <!-- rajout de div pour hebergement et activité-->
+                <div class="sizelien12 flexcentre">
                     <div class="sizelien flexcentre bordurenav">
                         <a class="colorliennoir deconone" href="#hebergements">Hébergements</a>
                     </div>
                     <div class="sizelien flexcentre bordurenav">
                         <a class="colorliennoir deconone" href="#activites">Activités</a>
                     </div>
-                    <div class="sizelien flexcentre bordurenav">
+                </div>
+                <div class="sizelien flexcentre bordurenav">
                         <a class="colorlienbleu textgras deconone" href="#">S'inscrire</a>
-                    </div>
                 </div>
             </div>
         </nav>
@@ -55,7 +58,7 @@
                     </div>
                     <div class="backbleu flexcentre boutonsearch">Rechercher</div>
                 </div>
-                <div class="filtre margfiltre">
+                <div class="mobilefiltrewrap filtre margfiltre">
                     <div class="margfiltretitre"><h3>filtres</h3></div>
                     <div class=" flexbetween filtretexticons">
                         <i class="fas fa-money-bill-wave fa-lg filtreicons flexcentre"></i>
@@ -84,7 +87,7 @@
         </header>
         <section id="hebergements" class="flexaround">
             <div class="flexcolonearound sizehebergement backgris blochebergement">
-                <h3>Hébergements à Marseille</h3>
+                <h2>Hébergements à Marseille</h2>
                 <div class="bloc1 flexbetween">
                     <div class="cubehebergement flexcolonecentre">
                         <div class="imghebergement1"></div>
@@ -179,7 +182,7 @@
             </div>
             <div class="sizepopulaire blocpopulaire backgris">
                 <div class="flexbetween">
-                    <h2 class="textgras">Les plus populaires</h2>
+                    <h2 class="tablettesizetitrepop textgras">Les plus populaires</h2>
                     <div><i class="fas fa-chart-line fa-2x"></i></div>
                 </div>
                 <div class="flexcolonaround">
