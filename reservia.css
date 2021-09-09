@@ -84,7 +84,7 @@ html, body
 /*nav*/
 .sizenav
 {
-   height: 100px;
+   height: auto;
 }
 .sizeliens
 {
@@ -632,4 +632,34 @@ height: auto;
 {
     margin-left: 0;
 }
-}   
+}  
+@media screen and (max-width: 600px) 
+{
+.sizelien12
+{
+order: 1;
+width: 100%;
+margin-left: 0;    
+}
+.sizelienmobile
+{
+width: 50%;
+border-top: none;
+border-bottom: #f2f2f2 solid 5px;
+}
+.sizeliens
+{
+width: 100%;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.sizelienmobile:hover
+{
+    border-top: 0;
+    border-bottom: solid 5px #0065fc;
+}
+.mobiletitreh1
+{
+    font-size: x-large;
+}
+}
